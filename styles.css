@@ -1,0 +1,22 @@
+a{
+    color:inherit;
+}
+.header{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: center;
+    white-space:normal;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.headerLink{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.headerGroup{
+    background-color: black;
+}
