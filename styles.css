@@ -87,22 +87,16 @@
   color: rgb(70, 70, 70);
 }
 #discordEmbed {
-  flex: 1;
-  width: 40%;
-  height: 100%;
-  margin-left: 4.5vw;
-  margin-right: 4.5vw;
-  margin-top: 6vw;
-  margin-bottom: 6vw;
-  height: auto;
+
+  height: 103px ;
+  width: 413px;
+  margin-right: 10%;
   background-color: #2C2F33;
-  border-radius: 20px;
+  margin-top: 10%;
+
 }
 #embedHeading {
-  width: 100%;
-  background-color: #7289DA;
-  height: 30%;
-  border-radius: 20px 20px 0 0;
+  size: inherit;
 }
 html {
   padding: 0;
@@ -116,4 +110,35 @@ body {
   background-repeat:no-repeat;
   padding: 0;
   margin: 0;
+}
+#discordEmbed:hover{
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+#discordEmbed:active{
+  opacity: 0.25;
+}
+#apply {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-top: 5%;
+}
+#applyText {
+  width: 40%;
+  padding: 5vw;
+  flex: 1;
+}
+#applyText h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vh;
+  color: rgb(70, 70, 70);
+}
+#applyText p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5vh;
+  color: rgb(70, 70, 70);
 }
