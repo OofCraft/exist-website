@@ -73,7 +73,7 @@
 }
 #discordText {
   width: 35%;
-  padding: 5vw;
+  padding: 4.5vw;
   flex: 1;
 }
 #discordText h1, #applyText h1 {
@@ -104,6 +104,18 @@
   height: 30%;
   border-radius: 20px 20px 0 0;
 }
+#embedHeading img {
+  /* padding-top: 12.5%; */
+  padding-left: 20px;
+  padding-top: 10px;
+  height: 75%;
+  vertical-align: middle;
+}
+#guildpfp {
+  border-radius: 50%;
+  margin-left: 5%;
+  height: 40%;
+}
 html {
   padding: 0;
   margin: 0;
@@ -120,6 +132,7 @@ body {
 #applyText {
   width: 40%;
   padding: 5vw;
+  padding-left: 9vw;
   padding-top: 0;
   flex: 1;
 }
@@ -130,6 +143,7 @@ body {
 #joinImg {
  border-radius: 20px;
  margin: 5vw;
- margin-top: 3vw;
- width: 90%
+ margin-top: 1.25vw;
+ margin-left: 4vw;
+ width: 105%
 }
